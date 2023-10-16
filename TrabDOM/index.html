@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto web 2</title>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<h1>Lista de Tarefas</h1>
+
+<main>
+    <form id="formtarefas" action="">
+        <br>
+        <label for="texto">Digite o nome da tarefa</label>
+        <br>
+        <input type="text" id="texto" placeholder="Tarefa">
+        <br>
+        <br>
+        <label for="hora">Escolha o melhor horário para fazer a tarefa</label>
+        <br>
+        <select name="hora" id="hora">
+            <option value="">Selecione um horario</option>
+        </select>
+        <br>
+        <label for="tarefa">Tipo de Atividade</label>
+        <br>
+        <select name="tarefa" id="tarefa">
+            <option value="">Selecione o tipo de Atividade</option>
+            <option value="Leve">Leve</option>
+            <option value="Moderada">Moderada</option>
+            <option value="Intensa">Intensa</option>
+        </select>
+        <br>
+        <input type="hidden" id="tipoTarefa" value="">
+        <br>
+        <input type="submit" id="bt" class="btn_add" value="Salvar Tarefa">
+    </form>
+</main>
+<footer>
+    <p>
+        Criado por &copy; Edilson e Matheus
+    </p>
+</footer>
+</body>
+</html>
